@@ -1,0 +1,53 @@
+{
+  "main": [
+    {
+      "name": "Home",
+      "url": "/"
+    },
+    {
+      "name": "Dashboard",
+      "url": "/elements"
+    },
+    {
+      "name": "About",
+      "url": "/about"
+    }
+
+  ],
+  "footer": [
+    {
+      "title": "Company",
+      "links": [
+        {
+          "name": "About us",
+          "url": "/about"
+        },
+        {
+          "name": "Contact us",
+          "url": "/contact"
+        },
+        {
+          "name": "Pricing",
+          "url": "/pricing"
+        }
+      ]
+    },
+    {
+      "title": "Resources",
+      "links": [
+        {
+          "name": "Blog",
+          "url": "/blogs"
+        },
+        {
+          "name": "Career",
+          "url": "/career"
+        },
+        {
+          "name": "Terms & Conditions",
+          "url": "/terms-policy"
+        }
+      ]
+    }
+  ]
+}
