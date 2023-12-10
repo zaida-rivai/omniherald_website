@@ -28,7 +28,7 @@ const {showCta, showFooter} = Astro.props;
   <footer
   class={`${!showCta && 'footer-alt'} relative z-20 bg-theme-dark after:absolute after:left-0 after:top-0 after:-z-10 after:h-[400px] after:w-full after:bg-[white] after:content-['']`}>
   <div class="container relative z-30">
-    {showCta && 
+    {showCta &&
       <div class="shadow-default relative z-20 overflow-hidden rounded-lg bg-white px-8 py-10 sm:px-14">
         <div class="row items-center text-center sm:text-left">
           <div class="md:col-12 lg:col-7 xl:col-6">
@@ -66,13 +66,13 @@ const {showCta, showFooter} = Astro.props;
               class="mt-10 flex flex-wrap justify-center gap-x-8 gap-y-4 sm:justify-start sm:gap-8"
               data-aos="fade-up-sm"
               data-aos-delay="50">
-              {cta.buttons.primary.enable && 
+              {cta.buttons.primary.enable &&
                 <a href={cta.buttons.primary.link} class="btn btn-primary btn-md">
                   {cta.buttons.primary.label}
                 </a>
               }
-              
-              {cta.buttons.secondary.enable && 
+
+              {cta.buttons.secondary.enable &&
                 <a href={cta.buttons.secondary.link} class="btn btn-outline-primary btn-md">
                   {cta.buttons.secondary.label}
                 </a>
@@ -97,26 +97,13 @@ const {showCta, showFooter} = Astro.props;
         <div
           data-aos="fade-left-sm"
           class="pointer-events-none absolute left-[-65px] top-0 -z-10 select-none sm:left-0">
-          <img
-            class="inject-svg text-secondary"
-            src="/images/shapes/cta-s-1.svg"
-            alt="shape" />
         </div>
         <div
           data-aos="fade-right-sm"
           class="pointer-events-none absolute bottom-[40px] right-[-90px] -z-10 select-none xl:right-[-60px]">
-          <img
-            class="inject-svg text-secondary"
-            src="/images/shapes/cta-s-2.svg"
-            alt="shape" />
         </div>
         <div
           class="pointer-events-none absolute bottom-[-120px] left-1/2 -z-10 -translate-x-1/2 select-none sm:bottom-[-90px]">
-          <img
-            class="inject-svg text-quaternary"
-            data-aos="fade-up-sm"
-            src="/images/shapes/cta-s-3.svg"
-            alt="shape" />
         </div>
       </div>
     }
@@ -155,7 +142,7 @@ const {showCta, showFooter} = Astro.props;
 
     <div class="row gy-5 py-7 text-center lg:g-4 sm:py-14 sm:text-left">
       {
-      footer.map(widget => 
+      footer.map(widget =>
         <div class="sm:col-6 md:col-4 mb-8 xl:mb-0 lg:col-3 xl:col-3">
           <div class="widget lg:pl-16">
             <h3 class="widget-title">{widget.title}</h3>
@@ -168,7 +155,7 @@ const {showCta, showFooter} = Astro.props;
 
       <!-- End Footer Widget -->
       <div class="sm:col-6 md:col-4 mb-8 xl:mb-0 lg:col-4 xl:col-3">
-        {email &&  
+        {email &&
         <div class="widget lg:pl-8">
           <h3 class="widget-title">Email US</h3>
           <div
@@ -182,7 +169,7 @@ const {showCta, showFooter} = Astro.props;
       <!-- End Footer Widget -->
       <div class="sm:col-6 md:col-6 mb-8 xl:mb-0 lg:col-3 xl:col-3">
         <div class="widget lg:pl-16">
-          {phone && 
+          {phone &&
           <h3 class="widget-title">Contact US</h3>
           <div
             class="mx-auto -mt-1 w-fit text-[22px] font-bold text-amber-400 transition-all duration-300 hover:underline hover:underline-offset-4 sm:mx-0">
@@ -201,7 +188,7 @@ const {showCta, showFooter} = Astro.props;
   </div>
   <!-- End Main Content -->
 
-  
+
     <LineBg
     className="absolute left-0 top-1/2 flex h-full w-full -translate-y-1/2 justify-between"
     color="bg-line-dark"
