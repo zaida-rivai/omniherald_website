@@ -80,63 +80,62 @@ const { bgColor = "bg-quaternary/20" }: { bgColor?: string } = Astro.props;
     <div class={`navbar-wrapper`}>
       <ul class="navbar-nav">
         {
-          main.map((item, i) => {
-            return item.hasChildren ? (
-              <li class="nav-item nav-dropdown group">
-                <label for={item.name}>
-                  <span class="nav-link inline-flex items-center">
-                    {item.name}
-                    <svg class="h-4 w-4 fill-current" viewBox="0 0 20 20">
-                      <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
-                    </svg>
-                  </span>
-                </label>
-                <input class="peer hidden" type="checkbox" id={item.name} />
-                <ul class="nav-dropdown-list lg:group-hover:visible lg:group-hover:opacity-100 peer-checked:max-lg:block">
-                  {item.children?.map((child, i) => {
-                    return (
-                      <li key={i} class="nav-dropdown-item">
-                        <a href={child.url} class="nav-dropdown-link">
-                          {child.name}
-                        </a>
-                      </li>
-                    );
-                  })}
-                </ul>
-              </li>
-            ) : (
-              <li key={i} class="nav-item">
-                <a href={item.url} class="nav-link">
-                  {item.name}
-                </a>
-              </li>
-            );
-          })
-        }
+          // main.map((item, i) => {
+          //   return item.hasChildren ? (
+          //     <li class="nav-item nav-dropdown group">
+          //       <label for={item.name}>
+          //         <span class="nav-link inline-flex items-center">
+          //           {item.name}
+          //           <svg class="h-4 w-4 fill-current" viewBox="0 0 20 20">
+          //             <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+          //           </svg>
+          //         </span>
+          //       </label>
+          //       <input class="peer hidden" type="checkbox" id={item.name} />
+          //       <ul class="nav-dropdown-list lg:group-hover:visible lg:group-hover:opacity-100 peer-checked:max-lg:block">
+          //         {item.children?.map((child, i) => {
+          //           return (
+          //             <li key={i} class="nav-dropdown-item">
+          //               <a href={child.url} class="nav-dropdown-link">
+          //                 {child.name}
+          //               </a>
+          //             </li>
+          //           );
+          //         })}
+          //       </ul>
+          //     </li>
+          //   ) : (
+          //     <li key={i} class="nav-item">
+          //       <a href={item.url} class="nav-link">
+          //         {item.name}
+          //       </a>
+          //     </li>
+          //   );
+          // })
+        <!--}-->
       </ul>
-      {/* <!-- End Navbar Nav --> */}
       <div
         class="order-2 mx-auto mb-[0.75rem] flex flex-col items-center lg:mx-0 lg:mb-0 lg:ml-7 lg:flex-row"
       >
         <div
           class="flex flex-col justify-center gap-5 pt-4 text-center lg:ml-7 lg:flex-row lg:gap-7 lg:pt-0 lg:text-left"
         >
-          {
-            navigation_buttons.map((button, i) => {
-              return (
-                button?.enable && (
-                  <a
-                    href={button.link}
-                    class={`btn ${
-                      i === 0 ? "btn-outline-primary" : "btn-primary"
-                    } w-[200px] min-[340px]:w-[300px] lg:w-auto`}
-                  >
-                    {button.label}
-                  </a>
-                )
-              );
-            })
-          }
+          <!--{-->
+          <!--  navigation_buttons.map((button, i) => {-->
+          <!--    return (-->
+          <!--      button?.enable && (-->
+          <!--        <a-->
+          <!--          href={button.link}-->
+          <!--          class={`btn ${-->
+          <!--            i === 0 ? "btn-outline-primary" : "btn-primary"-->
+          <!--          } w-[200px] min-[340px]:w-[300px] lg:w-auto`}-->
+          <!--        >-->
+          <!--          {button.label}-->
+          <!--        </a>-->
+          <!--      )-->
+          <!--    );-->
+          <!--  })-->
+          <!--}-->
         </div>
       </div>
     </div>

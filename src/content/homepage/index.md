@@ -19,17 +19,17 @@ banner:
     facility:
       - AI-driven
       - Interoperable Data
-      - Transparency
+      - Traceability
 
 #Brands
 brands:
   - /images/brands/1.png
   - /images/brands/2.png
-  - /images/brands/3.png
-  - /images/brands/4.png
-  - /images/brands/5.png
-  - /images/brands/6.png
-  - /images/brands/7.png
+#  - /images/brands/3.png
+#  - /images/brands/4.png
+#  - /images/brands/5.png
+#  - /images/brands/6.png
+#  - /images/brands/7.png
 #  - /images/brands/1.png
 #  - /images/brands/2.png
 #  - /images/brands/3.png
@@ -38,7 +38,7 @@ brands:
 features:
   subtitle: Our core features
   title: What you get with OmniHerald
-  description: One of the leading agricultural analytics platforms on the market.
+  description: Innovative agricultural analytics platform
   button:
     enable: true
     label: All Features
@@ -61,7 +61,7 @@ features:
 showcase:
   subtitle: EXPERIENCE SPEAKS
   title: Don't Take Our Word For It
-  description: Real-time insights into 100+ agricultural commodities 
+  description: Real-time insights into specialty agricultural commodities 
   list:
     - title: Features You will Need
       description: Access to crop yields, price data, granular weather data, finacial farm data and more. 
@@ -80,11 +80,11 @@ funfacts:
   description: This text should be modified
   list:
     - count: "550+"
-      text: Farmers onboard                        
-    - count: "10 K+"
-      text: Datasets
+      text: Data Suppliers Onboard                        
+    - count: "150 K+"
+      text: New Data Points Monthly
     - count: "30"
-      text: Different countries
+      text: Different Countries
 
 #services
 services:
@@ -92,7 +92,7 @@ services:
     title: Envision a world where farmers are rightfully rewarded for their hard work and dedication.
     description: A safe and secure portal for farmers to upload and monetize agricultural data
     image: /images/feature-1.png
-  - subtitle: Collaborative Solutions
+  - subtitle: Transparent Insights
     title: And where you can ensure transparency in 100+ commodity trading data. 
     description: Seamlessly navigate our platform from any device – experience the convenience of accessing comprehensive features through a web browser or on your smartphone. Designed with user-friendliness at its core, our interface ensures effortless interaction and accessibility.
     image: /images/feature-2.png

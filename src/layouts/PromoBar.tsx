@@ -9,8 +9,8 @@ export default function PromoBar() {
         <div className="container-fluid">
             <div className="relative flex items-center justify-between sm:text-center">
             <span className="mx-auto pr-10 text-sm lg:text-[15px]">
-                Pellen tesque in ipsum id orci porta dapibus. Sed port titor lectus nibh
-                Vivamus. <a href="#?">Learn More</a>
+                🌟 Exclusive Launch Offer: Sign up today and unlock advanced analytics with a free 30-day trial of OmniHerald Pro!
+                {/*<a href="#?">Learn More</a>*/}
             </span>
             <button
                 className="promo-bar-close-btn text-xs min-w-[20px] h-[20px] flex items-center justify-center rounded-full border-2 border-white text-white opacity-80"
