@@ -77,7 +77,7 @@ showcase:
 funfacts:
   subtitle: ACHIEVING EXCELLENCE
   title: What we have achieved so far 
-  description: This text should be modified
+  description:  
   list:
     - count: "550+"
       text: Data Suppliers Onboard                        
