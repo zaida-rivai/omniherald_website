@@ -63,14 +63,14 @@ showcase:
   title: Don't Take Our Word For It
   description: Real-time insights into specialty agricultural commodities 
   list:
-    - title: Features You will Need
+    - title: Access to thousands of agricultural datasets
       description: Access to crop yields, price data, granular weather data, finacial farm data and more. 
       image: /images/tab-contents/feature-tab-content-1.jpg
-    - title: Increase Your Sales
-      description: Know exactly when it is the right time to buy and to sell.  
+    - title: Insights you want with our interactive dashboard
+      description: Use our user-friendly UI to follow market trends and weather changes in a split-second.  
       image: /images/tab-contents/feature-tab-content-2.jpg
-    - title: Choose Right Plan
-      description: Customize your pricing plan to give yourself the optimal experience.
+    - title: Customize your news page
+      description: In a world with a data overload, stay up to date with the topics you need. 
       image: /images/tab-contents/feature-tab-content-3.jpg
 
 #funfact
